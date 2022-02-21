@@ -4,6 +4,11 @@ import DefaultHOC from "./HOC(Higher Order Components)/Default.HOC";
 import Temp from "./Components/temp";
 // import Navbar from "./Components/Navbar/navbar.component";
 
+
+// Import css files
+import "slick-carousel/slick/slick.css";
+import "slick-carousel/slick/slick-theme.css";
+
 function Name(){
   return <h1>Hello root</h1>
 }
