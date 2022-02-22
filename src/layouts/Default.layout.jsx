@@ -8,10 +8,7 @@ const DefaultLayout = (props) => {
   return (
     <>
       <Navbar />
-      {/* <h1 className="text-2xl">Default Layout</h1> */}
-      {/* {props.children} */} 
       <HeroCarousal/>
-      {/* <Temp/> */}
       <HomePage/>
     </>
   );
